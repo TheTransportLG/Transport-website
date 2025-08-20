@@ -1,1 +1,12 @@
 # Transport-website
+document.getElementById('bookingForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert("Thank you for booking with SwiftTrans! We'll be in touch.");
+  this.reset();
+});
+
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert("Thanks for reaching out! We'll reply soon.");
+  this.reset();
+});
